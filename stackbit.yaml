@@ -312,6 +312,8 @@ models:
       - type: string
         name: photo_alt
         label: Image alt text
+      - name: ''
+        type: string
   category:
     type: data
     label: Category
@@ -482,6 +484,7 @@ models:
         label: Seo
       - name: ''
         type: string
+        label: ''
   section:
     type: object
     label: Section
